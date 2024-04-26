@@ -1,3 +1,6 @@
+'''
+From match.csv, creating matchreport.csv by calculating matchplayed and points gained by each team using python
+'''
 f=open("match.csv","r")
 f1=open("matchreport.csv","w")
 next(f)
